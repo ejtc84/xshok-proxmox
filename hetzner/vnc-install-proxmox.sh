@@ -73,7 +73,7 @@ if [ "$OS" == "PBS" ] ; then
   INSTALL_IMAGE="proxmox-pbs.iso"
 else
   if [ ! -f INSTALL_IMAGE="" ] ; then
-     wget "http://download.proxmox.com/iso/proxmox-ve_7.1-2.iso" -c -O proxmox-ve.iso || exit 1
+     wget "http://download.proxmox.com/iso/proxmox-ve_7.4-1.iso" -c -O proxmox-ve.iso || exit 1
   fi
   INSTALL_IMAGE="proxmox-ve.iso"
 fi
